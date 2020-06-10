@@ -74,8 +74,13 @@ net.initialize(force_reinit=True, ctx=ctx, init=init.Xavier())
 trainer = gluon.Trainer(net.collect_params(), 'sgd', {'learning_rate': lr})
 train_ch5(net, train_iter, test_iter, batch_size, trainer, ctx, num_epochs)
 
-
-
+# Result
+training on gpu(0)
+epoch 1, loss 2.3170, train acc 0.103, test acc 0.100, time 7.2 sec
+epoch 2, loss 1.6622, train acc 0.354, test acc 0.632, time 6.9 sec
+epoch 3, loss 0.9164, train acc 0.642, test acc 0.712, time 6.7 sec
+epoch 4, loss 0.7265, train acc 0.719, test acc 0.740, time 6.8 sec
+epoch 5, loss 0.6518, train acc 0.743, test acc 0.767, time 6.9 sec
 
 
 
