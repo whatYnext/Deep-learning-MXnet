@@ -7,4 +7,4 @@ Including:
 
 1. LeNet, AlexNet, VGG, NiN, GoogLeNet, ResNet and DenseNet.
 
-2. RNN models.
+2. RNN models: Lyrics_predition
