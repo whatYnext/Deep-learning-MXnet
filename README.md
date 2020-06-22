@@ -5,6 +5,6 @@ The detailed implementation of experiments in "Dive Into Deep Learning".
 
 Including:
 
-1. LeNet, AlexNet, VGG, NiN, GoogLeNet, ResNet and DenseNet.
+1. CNN models: LeNet, AlexNet, VGG, NiN, GoogLeNet, ResNet and DenseNet.
 
 2. RNN models: Lyrics_predition
